@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* 🔥 Sticky Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 40px;
+  background: #020617;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* 🔥 Hover effect */
+nav a:hover {
+  color: #22c55e;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-left h1 {
+  font-size: 32px;
+}
+
+.hero-left p {
+  margin: 10px 0;
+}
+
+/* 🔥 Button hover */
+button {
+  padding: 8px 15px;
+  border: none;
+  background: #22c55e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* 🔥 Image styling */
+.hero-right img {
+  width: 220px;
+  border-radius: 50%;
+  border: 3px solid #22c55e;
+}
+
+/* Sections */
+section {
+  padding: 30px 40px;
+}
+
+/* Skills */
+.skills span {
+  background: #1e293b;
+  padding: 8px 12px;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+/* 🔥 Skill hover */
+.skills span:hover {
+  background: #22c55e;
+  color: black;
+}
+
+/* Projects */
+.card {
+  background: #1e293b;
+  margin: 10px 0;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+/* 🔥 Card hover */
+.card:hover {
+  transform: translateY(-5px);
+  background: #22c55e;
+  color: black;
+}
